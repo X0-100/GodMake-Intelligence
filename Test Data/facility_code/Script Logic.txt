@@ -1,0 +1,24 @@
+MSH--> 3 should be Facility Code, 11 should be 2.5
+EVN--> If source EVN|1 is Null then map MSH|8.2 to EVN|1 and MSH|6 to EVN|2 or map EVN as is
+==============================================================================x
+PID --> 3.1 should not be null, 3.4 should be Facility code same as MSH3 (output), 3.5 should be MR
+PID--> If 2 is not null then assign 2.4 as Facility code and 2.5 as MR
+PID--> 13.2 is in PRN,ORN,WPN,VHN,ASN,EMR,NET,BPN then map as is otherwise map PID|13.2 as Null OR (IF PID|13.1 is Null and PID|13.6 is not Null Then concatenate 13.6 and 13.7 and assign it to 13.1)
+PID--> if 14.1 is not Null then map 14.2 as WPN
+PV1--> 7,8,9,17,52 -- NPI  (Check PV1 if 10 digits then NPI else Facility Code-LOCAL)
+================================================================================
+PV1--> 19 should not be Null
+PV1--> 2 should be O or S
+PD1--> 4 -- NPI Logic
+PD1--> if 4.1 is Null and 4.2 is not Null then concatenate first 3 characters of 4.2 and 4.3 and map it to 4.1 and assign 4.9 as Local code
+=====================================================================================
+IN1--> if IN1|4 is not null and IN1|2.2 is NULL assign IN1|4.1 to IN1|2.2
+IN1--> if IN1|2.1 is null and IN1|4 is not NULL assign first 4 Characters of IN1|4 to IN1|2.1
+IN1--> if IN1|3.1 is null and IN1|3.2 is not NULL assign IN1|3.2 to IN1|3.1 and If IN1|3 is null then assign IN1|4 first 4 characters to IN1|3
+IN1--> 49 should be null
+IN2 --> should be null
+DG1--> If DG1|3 and DG1|4 are null remove DG1 segment
+GT1--> only assign first 4 fields of GT1|6 and 7
+GT1--> only map 2.1 to 2
+NK1--> only assign first 4 fields of NK1|5 and 6
+

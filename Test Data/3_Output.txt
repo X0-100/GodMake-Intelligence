@@ -1,0 +1,14 @@
+MSH|^~\&|CGM Clinical|COMDCC|||20240814193300-0700|High|ADT^A04|95619a4c-d9b3-4c1e-869c-802cc6cfe4b9|T|2.5
+EVN|A04|20240814193300-0700|||||
+PID|1||192569^^^COMDCC^MR||COOK^DEBORAH^A^^^^L||19410902|F||2054-5^Black or African American^CDCREC|9717 S 3rd Ave^^Inglewood^CA^90305^USA^H^^06037||^^^||eng^English|S||192569||||N^Not Hispanic or Latino^CDCREC|CA|N|1|USA||||N|||20240814
+PD1|U||Digestive Care Consultants||N||||||U
+PV1|1|O|^^^Digestive Care Consultants^^O||||1487974473^DANIEL^SHUE^^^^^^NPI^^^^NPI|^DAVID^DAVIS BOOZER^L^^^^^COMDCC-LOCAL|||||||||||192569|Commercial||||||||||||||||||||||||20221027020000-0700|||1615.0000|1381.4000|233.6000||V
+PV2||||||||||||# 27537121  Axminster||20220808||||||||||||20220808|||||||||||||^N||||F|U
+DG1|1|ICD10|R10.32^Left lower quadrant pain^I10|Left lower quadrant pain|20220808020000-0700|F|||||||||||D
+DG1|2|ICD10|Z01.818^Encounter for other preprocedural examination^I10|Encounter for other preprocedural examination|20220808040000-0700|F|||||||||||D
+DG1|3|ICD10|D12.5^Benign neoplasm of sigmoid colon^I10|Benign neoplasm of sigmoid colon|20221027020000-0700|F|||||||||||D
+DG1|4|ICD10|K57.30^Diverticulosis of large intestine without perforation or abscess without bleeding^I10|Diverticulosis of large intestine without perforation or abscess without bleeding|20221027020000-0700|F|||||||||||D
+DG1|5|ICD10|K64.8^Other hemorrhoids^I10|Other hemorrhoids|20221027020000-0700|F|||||||||||D
+DG1|6|ICD10|K58.1^Irritable bowel syndrome with constipation^I10|Irritable bowel syndrome with constipation|20240814093834-0700|F|||||||||||D
+GT1|1|1|Cook^Deborah^A^^^^L||9717 S 3rd Ave^^Inglewood^CA^90305^USA|^^^|^^^|19410902|F||SEL^Self^HL70063||||||9717 S 3rd Ave^^Inglewood^CA^90305^USA||0
+IN1|1|329779101^Axminster Medical Group|AXM01|Axminster Medical Group|P O Box 9688^^Mission Hills^CA^91346^USA||^WPN^^^^855^3596323^^^^^(855) 359-6323|329779101||||20240101|||OTHER||SEL||9717 S 3rd Ave^^Inglewood^CA^90305^USA|||||||20240718|Y||20240718|||||||329779101|0.0000&USD|0&USD|||||F||N|||||C|20240718|CA
